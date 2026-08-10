@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VoIP A2DP</string>
+    <string name="app_description">将第三方应用的蓝牙通话耳机请求路由到经典 A2DP。</string>
+    <string name="routing_title">蓝牙通话使用 A2DP</string>
+    <string name="routing_types">SCO / BLE Headset</string>
+    <string name="state_enabled">已开启</string>
+    <string name="state_disabled">已关闭</string>
+    <string name="state_unavailable">未连接 LSPosed 服务</string>
+    <string name="routing_scope">扬声器、听筒、有线和 USB 原样放行</string>
+    <string name="toggle_description">启用或关闭蓝牙通话 A2DP 路由</string>
+</resources>

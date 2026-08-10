@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/silverpoetry/GlobalVoipA2dp/security/advisories/new
+    about: Report exploitable security issues privately.
+  - name: Installation and troubleshooting
+    url: https://github.com/silverpoetry/GlobalVoipA2dp/blob/main/docs/troubleshooting.md
+    about: Check the documented recovery and logging steps first.

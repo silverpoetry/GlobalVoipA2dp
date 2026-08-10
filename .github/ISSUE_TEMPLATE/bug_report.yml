@@ -1,0 +1,55 @@
+name: Bug report
+description: Report a reproducible routing, volume, or framework compatibility problem
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: checkboxes
+    attributes:
+      label: Safety and scope
+      options:
+        - label: I have a working recovery path if a privileged process fails.
+          required: true
+        - label: I use an official release from this repository.
+          required: true
+        - label: I removed personal data, device identifiers, addresses, and proprietary files.
+          required: true
+  - type: input
+    attributes:
+      label: Android and LSPosed versions
+      placeholder: Android API level / LSPosed version
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Module version
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Requested output
+      options:
+        - Bluetooth SCO
+        - BLE Headset
+        - Speaker
+        - Earpiece
+        - Wired or USB
+        - Unknown
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Redacted audio-policy evidence
+      description: Include only the smallest relevant dumpsys or module-log excerpt.
+      render: text
+    validations:
+      required: true
