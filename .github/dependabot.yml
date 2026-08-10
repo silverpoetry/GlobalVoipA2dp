@@ -6,8 +6,9 @@ updates:
       interval: monthly
     open-pull-requests-limit: 5
     ignore:
+      # AGP updates require a coordinated Gradle, SDK, and signing-pipeline migration.
       - dependency-name: com.android.application
-        update-types: [version-update:semver-major]
+        update-types: [version-update:semver-major, version-update:semver-minor]
       - dependency-name: gradle-wrapper
         update-types: [version-update:semver-major]
       - dependency-name: io.github.libxposed:api
